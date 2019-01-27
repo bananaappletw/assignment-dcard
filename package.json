@@ -1,0 +1,11 @@
+{
+  "name": "assignment-dcard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bananaappletw/assignment-dcard.git",
+  "author": "bananaappletw <bananaappletw@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.6.2"
+  }
+}
