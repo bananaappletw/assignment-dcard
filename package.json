@@ -1,11 +1,17 @@
 {
   "name": "assignment-dcard",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
   "repository": "git@github.com:bananaappletw/assignment-dcard.git",
   "author": "bananaappletw <bananaappletw@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "koa": "^2.6.2"
+    "global": "^4.3.2",
+    "koa": "^2.6.2",
+    "nodemon": "^1.18.9",
+    "promise-redis": "^0.0.5"
   }
 }
