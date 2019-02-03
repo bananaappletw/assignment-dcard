@@ -1,7 +1,28 @@
 # assignment-dcard
 
+## Install 
+
 ```bash
-docker-compose up -d
+yarn install
+```
+
+## Running
+
+```bash
+yarn install
 ```
 
 See the result at http://localhost:4000
+
+## Test
+
+```bash
+yarn test
+```
+
+## Lint
+
+```bash
+yarn lint
+```
+

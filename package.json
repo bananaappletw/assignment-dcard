@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "node app.js",
+    "test": "make test",
+    "lint": "make lint"
   },
   "repository": "git@github.com:bananaappletw/assignment-dcard.git",
   "author": "bananaappletw <bananaappletw@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "global": "^4.3.2",
-    "koa": "^2.6.2",
-    "nodemon": "^1.18.9",
-    "promise-redis": "^0.0.5"
+    "koa": "^2.6.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.3",
+    "standard": "^12.0.1",
+    "supertest": "^3.4.2"
   }
 }
