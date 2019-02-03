@@ -9,10 +9,10 @@ yarn install
 ## Running
 
 ```bash
-yarn install
+yarn start
 ```
 
-See the result at http://localhost:4000
+See the result at http://localhost:3000
 
 ## Test
 
