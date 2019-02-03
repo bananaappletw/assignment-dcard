@@ -26,3 +26,6 @@ yarn test
 yarn lint
 ```
 
+## Explanation
+
+For the convenience, I just use object in memory as storage to store access count by ip address.
